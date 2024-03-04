@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    margin :0;
+    padding:0;
+    height:100% !important;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(190, 59, 59);
+}
+
+/* #message{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+ */
+
+/* .heading{
+    height: 100%;
+    display: flex;
+    position: relative;
+    border-bottom: 5px;
+    border-color: black;
+
+} */
+header{
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(165, 42, 42, 0.651);
+    border: 1px solid rgb(0, 0, 0);
+    backdrop-filter:blur(10px);
+    box-shadow: 1px 3px 15px black;
+    gap: 10px;
+}
+.welcome{
+    width:20%;
+    margin-left: 10%;
+    font-style: italic;
+    
+}
+
+.butoes{
+    display: flex;
+    gap:10px;  
+    margin-left: 30%;
+
+}
+button{
+    margin-bottom: 10px;
+    border: 7px solid rgb(0, 0, 0);
+    border-color: black;
+    color: black;
+    border-radius: 10px;
+    background-color: black;
+    width:70%;
+    margin-top: 10%;
+}
+.butoes button a{
+    font-size: 15px;
+    color:antiquewhite;
+    text-decoration: none;
+    font-style: none;
+    
+}
+
+.logado{
+    display:flex;
+    gap:20%;
+
+}
+
+.logado button{
+    margin-top: 5%;
+    margin-left:20%;
+}
+
+.logado button a{
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+    border: 0;
+    font-size: 15px;
+    color:antiquewhite;
+}
